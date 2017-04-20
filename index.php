@@ -23,27 +23,6 @@
 <div class="well">
     <h4>db connect test</h4> 
 </div>
-<?php 
-# example-canvas-app.php
-$fb = new Facebook\Facebook([/* . . . */]);
-
-$helper = $fb->getCanvasHelper();
-try {
-  $accessToken = $helper->getAccessToken();
-} catch(Facebook\Exceptions\FacebookResponseException $e) {
-  // When Graph returns an error
-  echo 'Graph returned an error: ' . $e->getMessage();
-  exit;
-} catch(Facebook\Exceptions\FacebookSDKException $e) {
-  // When validation fails or other local issues
-  echo 'Facebook SDK returned an error: ' . $e->getMessage();
-  exit;
-}
-
-if (isset($accessToken)) {
-  // Logged in.
-}
- ?>
 	<div class="row">
     <div class="col-sm-12 col-md-12" style="padding-top: 2em;">
     <div class="jumbotron">
