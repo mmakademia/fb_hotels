@@ -1,0 +1,12 @@
+{
+    "name": "calvez/hotelclvsrvxyz",
+    "require": {
+        "facebook/graph-sdk": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "calvez",
+            "email": "nemeth.lorant@gmail.com"
+        }
+    ]
+}
